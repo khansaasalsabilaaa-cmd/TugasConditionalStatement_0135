@@ -25,3 +25,12 @@ void inputData(float &berat, float &tinggi) {
     cout << "Masukkan tinggi badan (meter) : ";
     cin >> tinggi;
 }
+
+int main() {
+    float berat, tinggi, bmi;
+
+    inputData(berat, tinggi);
+
+    bmi = hitungBMI(berat, tinggi);
+    
+}
